@@ -39,7 +39,7 @@ Os testes resultantes desta execução podem ser vistos em **.evosuite/best-test
 
 ## QuickCheck
 ### Generator
-Usando o ficheiro **generator.hs** em **Generators/QuickCheck/generator.hs**, deve executar pelo terminal:
+Usando o ficheiro **generator.hs** em **QuickCheck/generator.hs**, deve executar pelo terminal:
 
 ```
 > ghci
@@ -48,15 +48,15 @@ Usando o ficheiro **generator.hs** em **Generators/QuickCheck/generator.hs**, de
 
 > main
 ```
-e nessa mesma pasta é gerado o ficheiro **log.txt**.
+e nessa mesma pasta que é gerado o ficheiro **log.txt**.
 
 
 
 ### Hypothesis
-Usando o ficheiro **hyp.py** em **Generators/Hypothesis/hyp.py**, deve executar pelo terminal:
+Usando o ficheiro **hyp.py** em **Hypothesis/hyp.py**, deve executar pelo terminal:
 
 ```python3 hyp.py```
 
-e nessa mesma pasta é gerado o ficheiro **sh_logs.txt**.
+e nessa mesma pasta que é gerado o ficheiro **sh_logs.txt**.
 
 
