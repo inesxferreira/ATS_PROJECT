@@ -18,8 +18,13 @@ Usando o projeto **POO_22**, os testes unitários estão em **src/main/java** en
 
 Para a sua execução e verificar o test coverage dos testes unitários deve:
 1. Editar as configurações de execução, como no tópico **JUnit**;
+
+
 2. Carregar no botão indicado na figura:
     ![TestCov](https://github.com/venicexbish/ATS_PROJECT/blob/main/testcoverage.png)
+    
+    
+  
 3. Observar os valores apresentados na tabela resultante.
 
 ## EvoSuite
