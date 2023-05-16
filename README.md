@@ -28,7 +28,7 @@ Para a sua execução e verificar o test coverage dos testes unitários deve:
 3. Observar os valores apresentados na tabela resultante.
 
 ## EvoSuite
-Usando o projeto **POO_22(java8)**, em **src/main/java** fazer o seguinte:
+Usando o projeto **POO_java8**, em **src/main/java** fazer o seguinte:
 1. Carregar no botão direito da pasta em questão;
 2. Executar "Run EvoSuite".
 
