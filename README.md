@@ -2,7 +2,7 @@
 Neste ficheiro é possível seguir as difersas instruções para a boa execução do projeto.
 
 ## JUnit 
-Usando o projeto **POO_22**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
+Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
 
 Para a sua execução e verificação dos testes unitários deve:
 1. Editar as configurações de execução, como na figura:
@@ -14,7 +14,7 @@ Para a sua execução e verificação dos testes unitários deve:
 
 
 ## Test Coverage
-Usando o projeto **POO_22**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
+Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
 
 Para a sua execução e verificar o test coverage dos testes unitários deve:
 1. Editar as configurações de execução, como no tópico **JUnit**;
