@@ -1,0 +1,100 @@
+* Starting client
+* Connecting to master process on port 5769
+* Analyzing classpath: 
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/classes
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/test-classes
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/classes
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+  - /home/ines/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+  - /home/ines/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+  - /home/ines/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+  - /home/ines/.m2/repository/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+* Finished analyzing classpath
+* Generating tests for class Controller
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:15:44.716 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/evosuite-seeds/Controller.seed
+* Loaded 0 tests from /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/evosuite-seeds/Controller.seed
+* Total number of test goals: 
+  - Line 28
+  - Branch 37
+  - Exception 0
+  - MutationFactory 90
+  - Output 0
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 37
+* Using seed 1684268141688
+* Starting evolution
+* Search finished after 98s and 447 generations, 32924 statements, best individual has fitness: 104.19047618581958
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 79%
+* Total number of goals: 28
+* Number of covered goals: 22
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 54%
+* Total number of goals: 37
+* Number of covered goals: 20
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 71%
+* Total number of goals: 90
+* Number of covered goals: 64
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 54%
+* Total number of goals: 37
+* Number of covered goals: 20
+* Generated 9 tests with total length 17
+* Resulting test suite's coverage: 76% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Compiling and checking tests
+* Writing JUnit test case 'Controller_ESTest' to /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/tmp_2023_05_16_20_55_09/tests
+* Done!
+

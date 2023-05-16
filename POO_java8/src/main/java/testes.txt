@@ -1,0 +1,30 @@
+Fornecedor: EDP,formula2
+Fornecedor:Jomar,formula1
+Fornecedor:Endesa,formula3
+Casa:Marta: Isabel da Silva e Sa,842037533,EDP
+Divisao:Escritorio
+SmartBulb:6549099,Neutral,0.21
+SmartBulb:8154343,Neutral,17.94
+SmartBulb:1417572,Neutral,14.68
+Divisao: Sala de Jantar
+SmartSpeaker: 4651525,39,TSF Radio Noticia,Marshall
+SmartSpeaker:9297,63,Radio Comercial,Sennheiser
+SmartCamera: 25376,1366,768
+Divisao:Cozinha
+SmartBulb:9752190,Cold,20.63
+SmartCamera:6105340,3840,2160
+SmartBulb:2451006,Cold,10.19
+Casa: Joana Catarina Veloso Branco,127167894,Endesa
+Divisao:Quarto
+SmartBulb:555056,Neutral,10.44
+SmartBulb:9494700,Neutral,16.30
+SmartBulb:5321070,Neutral,20.47
+Divisao:Cozinha
+SmartSpeaker:2178600,30,RFM,Bang&Olufsen
+SmartSpeaker:4810168,30,M80 Radio,Marshall
+SmartBulb:1809858,Warm,10.00
+Divisao: Sala de Estar
+SmartCamera: 3993490,3840,2160
+SmartSpeaker: 2811611,70,RTP Antena 1 98.3 FM,Philips
+SmartSpeaker:322356,50,M80 Radio,Sennheiser
+SmartBulb:2382854,Neutral,14.67

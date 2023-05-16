@@ -1,0 +1,102 @@
+* Starting client
+* Connecting to master process on port 13739
+* Analyzing classpath: 
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/classes
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar
+  - /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/test-classes
+  - /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/target/classes
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar
+  - /home/ines/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+  - /home/ines/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+  - /home/ines/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar
+  - /home/ines/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar
+  - /home/ines/.m2/repository/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+* Finished analyzing classpath
+* Generating tests for class SmartSpeaker
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:19:25.395 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/evosuite-seeds/SmartSpeaker.seed
+* Loaded 0 tests from /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/evosuite-seeds/SmartSpeaker.seed
+* Total number of test goals: 
+  - Line 53
+  - Branch 43
+  - Exception 0
+  - MutationFactory 160
+  - Output 26
+  - Method 16
+  - MethodNoException 16
+  - CBranchFitnessFactory 43
+* Using seed 1684268362243
+* Starting evolution
+* Search finished after 91s and 1751 generations, 576134 statements, best individual has fitness: 5.699999282881921
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 53
+* Number of covered goals: 53
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 160
+* Number of covered goals: 157
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 88%
+* Total number of goals: 26
+* Number of covered goals: 23
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Generated 39 tests with total length 98
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 76%
+* Compiling and checking tests
+* Writing JUnit test case 'SmartSpeaker_ESTest' to /home/ines/3ano2sem/ATS/ATS_PROJECT/POO_2022/.evosuite/tmp_2023_05_16_20_55_09/tests
+* Done!
+
