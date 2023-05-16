@@ -1,4 +1,9 @@
-# ATS_PROJECT - GUIDE HOW TO USE
+# ATS_PROJECT 
+Inês Ferreira (A97372)
+
+Joana Branco (A96584)
+
+# GUIDE HOW TO USE
 Neste ficheiro é possível seguir as difersas instruções para a boa execução do projeto.
 
 ## JUnit 
