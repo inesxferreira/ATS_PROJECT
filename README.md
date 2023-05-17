@@ -1,17 +1,14 @@
-# ATS_PROJECT 
-Inês Ferreira (A97372)
-
-Joana Branco (A96584)
-
 # GUIDE HOW TO USE
-Neste ficheiro é possível seguir as difersas instruções para a boa execução do projeto.
+Este repositório destina-se ao armazenamento do projeto realizado no âmbito da UC de Análise e Teste de Software e no presente documento pode encontrar instruções de como configurar e executar o projeto.
 
 ## JUnit 
 Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
 
 Para a sua execução e verificação dos testes unitários deve:
 1. Editar as configurações de execução, como na figura:
-  ![Configuração](https://github.com/venicexbish/ATS_PROJECT/blob/main/junit1.png)
+
+      <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/junit1.png" width="500" />
+
 
 2. Definir para cada uma das classes, a configuração de execução;
 3. Analisar valores dados no terminal.
@@ -25,8 +22,12 @@ Para a sua execução e verificar o test coverage dos testes unitários deve:
 1. Editar as configurações de execução, como no tópico **JUnit**;
 
 
-2. Carregar no botão indicado na figura:
-    ![TestCov](https://github.com/venicexbish/ATS_PROJECT/blob/main/testcoverage.png)
+
+
+2. Carregar no botão "Run with Coverage" como indicado na figura:
+
+    <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/testcoverage.png" width="200" />
+
     
     
   
@@ -53,15 +54,21 @@ Usando o ficheiro **generator.hs** em **QuickCheck/generator.hs**, deve executar
 
 > main
 ```
-e nessa mesma pasta que é gerado o ficheiro **log.txt**.
+e é nessa mesma diretoria que é gerado o ficheiro **log.txt**.
 
 
 
 ### Hypothesis
 Usando o ficheiro **hyp.py** em **Hypothesis/hyp.py**, deve executar pelo terminal:
 
-```python3 hyp.py```
+```> python3 hyp.py```
 
-e nessa mesma pasta que é gerado o ficheiro **sh_logs.txt**.
+e é nessa mesma diretoria que é gerado o ficheiro **sh_logs.txt**.
+
+
+# Realizado por:
+[Inês Ferreira](https://github.com/venicexbish) (A97372) 
+
+[Joana Branco](https://github.com/joanabranco) (A96584)
 
 
