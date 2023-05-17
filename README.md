@@ -7,7 +7,7 @@ Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** 
 Para a sua execução e verificação dos testes unitários deve:
 1. Editar as configurações de execução, como na figura:
 
-      <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/junit1.png" width="500" />
+      <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/imagens/junit1.png" width="500" />
 
 
 2. Definir para cada uma das classes, a configuração de execução;
@@ -26,7 +26,7 @@ Para a sua execução e verificar o test coverage dos testes unitários deve:
 
 2. Carregar no botão "Run with Coverage" como indicado na figura:
 
-    <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/testcoverage.png" width="200" />
+    <img src="https://github.com/venicexbish/ATS_PROJECT/blob/main/imagens/testcoverage.png" width="200" />
 
     
     
@@ -64,6 +64,9 @@ Usando o ficheiro **hyp.py** em **Hypothesis/hyp.py**, deve executar pelo termin
 ```> python3 hyp.py```
 
 e é nessa mesma diretoria que é gerado o ficheiro **sh_logs.txt**.
+
+# Relatório
+O relatório do projeto pode ser encontrado [aqui](https://github.com/venicexbish/ATS_PROJECT/blob/main/relat%C3%B3rio.pdf).
 
 
 # Realizado por:
