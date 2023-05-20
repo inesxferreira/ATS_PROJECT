@@ -1,7 +1,8 @@
 # GUIDE HOW TO USE
 Este repositório destina-se ao armazenamento do projeto realizado no âmbito da UC de Análise e Teste de Software e no presente documento pode encontrar instruções de como configurar e executar o projeto.
 
-## JUnit 
+## Unit Testing
+### JUnit
 Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
 
 Para a sua execução e verificação dos testes unitários deve:
@@ -15,11 +16,11 @@ Para a sua execução e verificação dos testes unitários deve:
 
 
 
-## Test Coverage
+### Test Coverage
 Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
 
 Para a sua execução e verificar o test coverage dos testes unitários deve:
-1. Editar as configurações de execução, como no tópico **JUnit**;
+1. Editar as configurações de execução, como no tópico **JUnit**, mas ;
 
 
 
@@ -33,7 +34,8 @@ Para a sua execução e verificar o test coverage dos testes unitários deve:
   
 3. Observar os valores apresentados na tabela resultante.
 
-## EvoSuite
+## Unit Test Generation
+### EvoSuite
 Usando o projeto **POO_java8**, em **src/main/java** fazer o seguinte:
 1. Carregar no botão direito da pasta em questão;
 2. Executar "Run EvoSuite".
@@ -41,6 +43,15 @@ Usando o projeto **POO_java8**, em **src/main/java** fazer o seguinte:
 Os testes resultantes desta execução podem ser vistos em **.evosuite/best-tests** e em **.evosuite/tmp_2023_05_16_20_55_09/reports** encontram-se as estatísticas dos testes em causa.
 
 **NOTA:** Este software apenas funciona em Java 8.
+
+## Mutation Testing
+### PIT
+Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
+
+Para a sua execução e verificação dos testes unitários deve:
+1. Editar as configurações de execução, como no tópico **JUnit**, indicado a target class e respetivo test.
+2. Observar os resultados através do link para o "report" dado na linha de comandos.
+
 
 
 ## QuickCheck
