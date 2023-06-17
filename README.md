@@ -1,6 +1,8 @@
 # GUIDE HOW TO USE
 Este repositório destina-se ao armazenamento do projeto realizado no âmbito da UC de Análise e Teste de Software e no presente documento pode encontrar instruções de como configurar e executar o projeto.
 
+**Nota final: 16**
+
 ## Unit Testing
 ### JUnit
 Usando o projeto **POO_2022**, os testes unitários estão em **src/main/java** entre as classes a que diz respeito os testes.
@@ -80,6 +82,7 @@ e é nessa mesma diretoria que é gerado o ficheiro **sh_logs.txt**.
 O relatório do projeto pode ser encontrado [aqui](https://github.com/venicexbish/ATS_PROJECT/blob/main/relat%C3%B3rio.pdf).
 
 E a respetiva apresentação [aqui](https://github.com/venicexbish/ATS_PROJECT/blob/main/Apresentacao.pdf).
+
 
 
 # Realizado por:
