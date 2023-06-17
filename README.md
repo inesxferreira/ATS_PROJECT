@@ -79,6 +79,8 @@ e é nessa mesma diretoria que é gerado o ficheiro **sh_logs.txt**.
 # Relatório
 O relatório do projeto pode ser encontrado [aqui](https://github.com/venicexbish/ATS_PROJECT/blob/main/relat%C3%B3rio.pdf).
 
+E a respetiva apresentação [aqui](https://github.com/venicexbish/ATS_PROJECT/blob/main/Apresentacao.pdf).
+
 
 # Realizado por:
 [Inês Ferreira](https://github.com/venicexbish) (A97372) 
